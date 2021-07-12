@@ -691,7 +691,7 @@
 
 					input = d.createElement( 'input' );
 					input.setAttribute ('type', 'file');
-					input.setAttribute ('accept', 'audio/*');
+					input.setAttribute ('accept', '*');
 					input.className = 'pk_inpfile';
 					input.onchange = function () {
 						q.LoadFile ( input );
